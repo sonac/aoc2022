@@ -19,7 +19,6 @@ void Day1::prepData() {
             curElf = new Elf();
             continue;
         }
-        curElf->sumCalories();
         curElf->items.push_back(std::stoi(l));
     }
     elves.push_back(*curElf);
